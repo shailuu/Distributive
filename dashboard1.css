@@ -1,0 +1,56 @@
+           :root {
+              --main-color: #d3ad7f;
+              --black: #13131a;
+              --bg: #010103;
+              --border: .1rem solid rgba(255, 255, 255, .3);
+          }
+          
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          
+          body {
+              min-height: 100vh;
+              background-color: white;
+          }
+          
+          .navbar-top {
+              position: fixed;
+          }
+          
+          section {
+              margin-right: 10px;
+          }
+          
+          svg {
+              background: white;
+              padding: 2px;
+              width: 30px;
+              height: 30px;
+          }
+          
+          .navbar-sidebar {
+              width: 180px;
+              height: 91vh;
+              position: fixed;
+              background: var(--black);
+          }
+          
+          h5 {
+              color: white;
+              padding-left: 20%;
+              padding-bottom: 20%;
+          }
+          
+          .nav-link:active,
+          .nav-link:hover,
+          .nav-link:focus {
+              background-color: var(--main-color);
+          }
+          
+          .vehicle-info {
+              /* flex: left; */
+              /* width: 800px; */
+          }
